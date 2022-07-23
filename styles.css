@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  font-family: "karla", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -5%;
+}
+
+p {
+  font-family: "inter", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.container {
+  width: 34.375rem;
+  height: 34.375rem;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ecfdf5;
+  position: absolute;
+  padding: 7.188rem 3.438rem;
+}
+
+.text-title {
+  max-width: 370px;
+  /* overflow: hidden; */
+  color: #2b283a;
+}
+
+.text-title > span {
+  color: #10b981;
+}
+
+.text-subtitle {
+  margin: 5px 0 20px 0;
+  font-weight: 400;
+}
+
+.prm-btn {
+  cursor: pointer;
+  margin: 20px 0;
+  background-color: #10b981;
+  padding: 9px 17px 9px 15px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+hr {
+  border: 1px solid #d5d4d8;
+  margin: 20px auto;
+}
+
+.output-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.output1,
+.output2 {
+  width: 13.188rem;
+  height: 2.438rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #273549;
+  margin: 20px 0;
+  /* padding: auto; */
+  color: #10b981;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
